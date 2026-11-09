@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Catatan Belanja</string>
+
+    <string name="judul_pengaturan">Pengaturan</string>
+    <string name="nama_pengguna">Nama Pengguna</string>
+    <string name="hint_nama">Masukkan nama kamu</string>
+    <string name="tema_aplikasi">Tema Aplikasi</string>
+    <string name="tema_terang">Tema Terang</string>
+    <string name="tema_gelap">Tema Gelap</string>
+    <string name="simpan_pengaturan">Simpan Pengaturan</string>
+
+</resources>

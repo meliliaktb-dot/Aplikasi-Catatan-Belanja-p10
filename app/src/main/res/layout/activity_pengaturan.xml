@@ -1,0 +1,85 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_pengaturan"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#198754"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_pengguna"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#222222"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nama"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:singleLine="true"
+            android:minHeight="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tema_aplikasi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#222222"/>
+
+        <RadioGroup
+            android:id="@+id/rgTema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp">
+
+            <RadioButton
+                android:id="@+id/rbTerang"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/tema_terang"
+                android:textColor="#222222"/>
+
+            <RadioButton
+                android:id="@+id/rbGelap"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/tema_gelap"
+                android:textColor="#222222"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/simpan_pengaturan"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#198754"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

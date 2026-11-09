@@ -1,0 +1,147 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CATATAN BELANJA"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#198754"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belanja Jadi Lebih Mudah"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#202124"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Halo, Pengguna"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Pengguna"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#202124"/>
+
+            <EditText
+                android:id="@+id/etNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan nama kamu"
+                android:singleLine="true"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnSimpanNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan Nama"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#198754"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Barang"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#202124"
+            android:layout_marginTop="24dp"/>
+
+        <EditText
+            android:id="@+id/etBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama barang"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Harga barang (opsional)"
+            android:inputType="numberDecimal"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Tambah Barang"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#198754"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Belanja"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#202124"
+            android:layout_marginTop="24dp"/>
+
+        <LinearLayout
+            android:id="@+id/containerBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnTema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ganti Tema"
+            android:backgroundTint="#343A40"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catat belanjaanmu, supaya tidak ada yang terlupakan."
+            android:textSize="13sp"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
